@@ -1,9 +1,19 @@
+// PHYS30762 Object oriented programming in C++
+// Assignment 5 - 11019730 - 11/04/2025
 // This program simulates interactions of photons with matter, specifically focusing on:
 // - Photon decay from radioactive and stable nuclei.
 // - Photon interactions with electrons and nuclei through various effects:
 // - Photoelectric effect: The energy of the photon is absorbed by an electron.
 // - Compton scattering: The photon undergoes a shift in energy based on scattering angle.
 // - Pair production: High-energy photons create electron-positron pairs.
+//
+// The program:
+// - Creates a set of nuclei, both stable and radioactive.
+// - Simulates the decay of radioactive nuclei, generating photons.
+// - Performs various interactions (photoelectric effect, Compton scattering, pair production)
+//   with the generated photons.
+// - Displays the resulting photon energies and information about the interactions.
+
 
 #include "RadioactiveNucleus.h"
 #include "StableNucleus.h"
